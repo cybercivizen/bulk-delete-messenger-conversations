@@ -1,6 +1,11 @@
 # Bulk Messenger Conversations Removal Tool
 Bulk conversations delete automation tool for Meta's Messenger
 
+## Why?
+I surfed the web looking for existing tools such as scripts or extensions to get the job done, but I was really surprised that I couldn't find any.
+
+So I decided to make mine.
+
 ## Prequisties
 * Nodejs installed.
 
