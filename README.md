@@ -15,7 +15,7 @@ So I decided to make mine.
 
 * Replace ``.env`` file content ``EMAIL_HERE`` and ``PASSWORD_HERE`` with your own information.
 
-* Lastly run `npx playwright test` to run the tool.
+* Lastly run `npx playwright test`.
 
 _NOTE: Tool automatically runs on headless mode, meaning you don't get the see the process. To prevent that from happening you can run playwright test with the config file._ 
 
