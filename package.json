@@ -1,0 +1,17 @@
+{
+  "name": "bulk-delete-messenger-conversations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "playwright": "^1.28.1",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.28.1"
+  }
+}
