@@ -1,4 +1,4 @@
-# Bulk Conversations Removal Tool
+# Bulk Messenger Conversations Removal Tool
 Bulk conversations delete automation tool for Meta's Messenger
 
 ## Prequisties
