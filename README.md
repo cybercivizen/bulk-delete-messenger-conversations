@@ -7,7 +7,7 @@ I surfed the web looking for existing tools such as scripts or extensions to get
 So I decided to make mine.
 
 ## Prequisties
-* Nodejs installed.
+* Nodejs installed (_In case you don't have it : https://nodejs.org/en/download/_).
 
 ## Instructions 
 
