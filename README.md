@@ -11,6 +11,8 @@ So I decided to make mine.
 
 ## Instructions 
 
+* Open a terminal in root directory.
+
 * Run ``npm i``
 
 * Replace ``.env`` file content ``EMAIL_HERE`` and ``PASSWORD_HERE`` with your own information.
