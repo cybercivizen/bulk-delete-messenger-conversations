@@ -13,19 +13,17 @@ test('Main', async ({ page }) => {
    await page.getByRole('button', { name: 'Log In' }).click();
    await page.waitForLoadState('networkidle')
    const convoLocator: Locator = page.locator('.x1n2onr6.x16hj40l', { has: page.locator('[role="gridcell"]') })
-   const convosCount = await convoLocator.count();
 
-   console.log(`Number of conversations: ${convosCount}`);
-   
+   let convosCount = await convoLocator.count();
+
    if (convosCount > 0) {
       console.log('Deleting...');
-      for (let i = 0; i <= convosCount; i++) {
+      while(true) {
          await convoLocator.nth(0).hover();
          await page.getByRole('button', { name: 'Menu' }).nth(0).click();
          await page.getByText('Delete Chat').click();
          await page.getByRole('button', { name: 'Delete Chat' }).click();
       }
-      console.log('Done!')
    } else {
       console.log('No conversations to delete.')
    }
